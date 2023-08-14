@@ -13,8 +13,6 @@ function CreateNewItem({addItem}){
                 text: event.target.value
             
         }))
-        console.log("newItemIn handleChangeText",newItem)
-     
     }
 
     function handleChangeIsCompleted(){
@@ -23,7 +21,6 @@ function CreateNewItem({addItem}){
                 isCompleted: !prevFormData.isCompleted
             
         }))
-        console.log("newItemIn handleChangeIsCompleted",newItem)
     }
 
     function submitNewItem(event){
