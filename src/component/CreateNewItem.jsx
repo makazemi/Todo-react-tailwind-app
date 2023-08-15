@@ -61,7 +61,7 @@ function CreateNewItem({addItem}){
             className=" focus:border-transparent focus:ring-0
             placeholder-darkLightGrayishBlue1 placeholder:text-sm text-lightVeryDarkGrayishBlue
             dark:text-darkLightGrayishBlue1 bg-veryLightGray dark:bg-veryDarkDesaturatedBlue 
-            border-none  hover:border-gradient-to-r  hover:border-from-fromGradient hover:border-to-toGradient " placeholder="Create a new todo..." />
+            border-none  hover:border-gradient-to-r  hover:border-from-fromGradient hover:border-to-toGradient min-w-0 " placeholder="Create a new todo..." />
 
             <button onClick={submitNewItem}>submit</button>
         </div>
